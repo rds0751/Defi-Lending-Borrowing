@@ -1,7 +1,7 @@
 import Image from "next/image";
 import correct from "../../assets/correct.png";
 import { useState } from "react";
-import { useWeb3 } from "../../components/providers/web3";
+import { useWeb3 } from "../providers/web3";
 import { usePromiseTracker } from "react-promise-tracker";
 import { LoadingSpinerComponent } from "../../utils/Spinner";
 import BorderLayout from "./BorderLayout";

@@ -12,7 +12,7 @@ export const loadContract = async (contractName, web3) => {
 
     contract = new web3.eth.Contract(
      Artifact.abi,
-     lendingBorrowing.address
+     '0xE4322A14191b812694036BC4C90141D37465BFc9'
     );
 
   }
